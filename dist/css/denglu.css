@@ -1,0 +1,136 @@
+body, div, ul, li, p, a, img, span, ol, dl, dt, dd, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+.logoo {
+  width: 1200px;
+  height: 107px;
+  margin: 0 auto; }
+  .logoo > img {
+    float: left;
+    margin-top: 20px; }
+  .logoo > p {
+    height: 90px;
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 100px;
+    border-left: 1px solid #CCCCCC;
+    line-height: 90px;
+    color: #444;
+    text-indent: 2em;
+    margin-top: 10px; }
+
+.denglu {
+  height: 483px;
+  background: #E3E3E3; }
+  .denglu > .denglu_m {
+    width: 1200px;
+    height: 483px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .denglu > .denglu_m > img:nth-of-type(1) {
+      width: 478px;
+      height: 362px;
+      margin-top: 60px;
+      float: left; }
+    .denglu > .denglu_m > .biaodan {
+      width: 362px;
+      height: 395px;
+      background: #FFFFFF;
+      margin-left: 700px;
+      margin-top: 60px;
+      overflow: hidden; }
+      .denglu > .denglu_m > .biaodan > form {
+        overflow: hidden; }
+        .denglu > .denglu_m > .biaodan > form > .biaodan_t {
+          width: 305px;
+          height: 21px;
+          margin-top: 20px;
+          margin-left: 30px; }
+          .denglu > .denglu_m > .biaodan > form > .biaodan_t > p {
+            display: inline-block;
+            font-size: 18px; }
+          .denglu > .denglu_m > .biaodan > form > .biaodan_t > a {
+            font-size: 12px;
+            float: right;
+            text-decoration: none;
+            line-height: 21px;
+            margin-right: 20px; }
+          .denglu > .denglu_m > .biaodan > form > .biaodan_t > a:hover {
+            text-decoration: underline; }
+        .denglu > .denglu_m > .biaodan > form > #yanzheng {
+          width: 305px;
+          margin-left: 30px;
+          overflow: hidden; }
+          .denglu > .denglu_m > .biaodan > form > #yanzheng > li {
+            width: 305px;
+            list-style: none; }
+            .denglu > .denglu_m > .biaodan > form > #yanzheng > li > input {
+              width: 252px;
+              height: 27px;
+              color: #777;
+              margin-top: 20px;
+              margin-left: 30px;
+              outline: none; }
+          .denglu > .denglu_m > .biaodan > form > #yanzheng > li:nth-of-type(1) {
+            background: url(../../src/images/login_icon.png) no-repeat 0 20px; }
+          .denglu > .denglu_m > .biaodan > form > #yanzheng > li:nth-of-type(2) {
+            background: url(../../src/images/login_icon.png) no-repeat 0 -39px; }
+        .denglu > .denglu_m > .biaodan > form > .anquan {
+          width: 305px;
+          height: 15px;
+          margin-left: 30px;
+          margin-top: 20px;
+          line-height: 14px; }
+          .denglu > .denglu_m > .biaodan > form > .anquan > a {
+            font-size: 12px;
+            text-decoration: none; }
+          .denglu > .denglu_m > .biaodan > form > .anquan > a:hover {
+            text-decoration: underline; }
+          .denglu > .denglu_m > .biaodan > form > .anquan > a:nth-of-type(2) {
+            float: right;
+            margin-right: 20px; }
+        .denglu > .denglu_m > .biaodan > form > .anniu {
+          width: 305px;
+          height: 40px;
+          margin-left: 30px;
+          margin-top: 20px; }
+          .denglu > .denglu_m > .biaodan > form > .anniu > input {
+            width: 290px;
+            height: 40px;
+            background: #FF6600;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            color: #FFFFFF; }
+        .denglu > .denglu_m > .biaodan > form > .wenzi {
+          width: 305px;
+          height: 20px;
+          margin-top: 20px;
+          margin-left: 30px;
+          color: #999;
+          font-size: 12px; }
+        .denglu > .denglu_m > .biaodan > form > .lianjie {
+          overflow: hidden;
+          margin-left: 10px;
+          margin-top: 30px; }
+          .denglu > .denglu_m > .biaodan > form > .lianjie > a {
+            display: inline-block;
+            width: 78px;
+            height: 30px;
+            font-size: 12px;
+            padding: 0 1px;
+            color: #999999;
+            line-height: 30px;
+            text-decoration: none;
+            text-indent: 2.5em; }
+          .denglu > .denglu_m > .biaodan > form > .lianjie > a:hover {
+            text-decoration: underline; }
+          .denglu > .denglu_m > .biaodan > form > .lianjie > a:nth-of-type(1) {
+            background: url(../../src/images/4link.png) no-repeat; }
+          .denglu > .denglu_m > .biaodan > form > .lianjie > a:nth-of-type(2) {
+            background: url(../../src/images/4link.png) no-repeat 0 -46px; }
+          .denglu > .denglu_m > .biaodan > form > .lianjie > a:nth-of-type(3) {
+            background: url(../../src/images/4link.png) no-repeat 0 -98px; }
+          .denglu > .denglu_m > .biaodan > form > .lianjie > a:nth-of-type(4) {
+            background: url(../../src/images/4link.png) no-repeat 0 -162px; }

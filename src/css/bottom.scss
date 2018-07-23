@@ -1,0 +1,288 @@
+.bottom{
+    width: 1200px;
+    margin: 0 auto;
+   
+    margin-top: 35px;
+    >.bottom_t{
+        width: 1200px;
+        height: 60px;
+        
+        >ul{
+            width: 1200px;
+            height: 60px;
+            >li{
+                width: 389px;
+                height: 60px;
+                list-style: none;
+                float: left;
+                padding-right: 11px;
+               
+            }
+        }
+    }
+    >.bottom_mid{
+        width: 1200px;
+        height: 71px;
+        margin-top: 20px;
+        >div{
+            float: left;
+        }
+        >div:nth-of-type(1){
+            width: 350px;
+            height: 71px;
+            background: url(../../src/images/infobook_qrcode_v1.png)no-repeat 0 -50px;
+            text-indent: 5em;
+            >span{
+                font-size: 14px;
+                font-weight: 600;
+            }
+            >p{
+                font-size: 12px;
+                line-height: 18px;
+                
+            }
+            >p:nth-of-type(1){
+                margin-top: 15px;
+            }
+        }
+        >div:nth-of-type(2){
+            width: 350px;
+            height: 71px;
+            background: url(../../src/images/infobook_qrcode_v1.png)no-repeat 0 -128px;
+            text-indent: 5em;
+            
+            >span{
+                font-size: 14px;
+                font-weight: 600;
+            }
+            >p{
+                font-size: 12px;
+                line-height: 18px;
+                
+            }
+            >p:nth-of-type(1){
+                margin-top: 15px;
+            }
+        
+        }
+        >div:nth-of-type(3){
+            width: 350px;
+            height: 71px;
+            
+            >div:nth-of-type(1){
+                width: 350px;
+                height: 42px;
+                
+                background: url(../../src/images/infobook_qrcode_v1.png)no-repeat;
+                text-indent: 3em;
+                >span{
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+                >a:nth-of-type(1){
+                    margin-left: 50px;
+                }
+                >a:nth-of-type(2){
+                    margin-left: 15px;
+                }
+                >a{
+                    font-size: 12px;
+                    color: #6C6C6C;
+                    text-decoration: none;
+                }
+                >a:hover{
+                    text-decoration: underline;
+                }
+            }
+            >div:nth-of-type(2){
+                input{
+                       width: 212px;
+                    height: 19px;
+                    
+                }
+                a{
+                    width: 58px;
+                    height: 25px;
+                    display: inline-block;
+                    border-radius: 5px;
+                    background: #ff6600;
+                    text-align: center;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+            }
+        }
+        >div:nth-of-type(4){
+            width: 150px;
+            height: 70px;
+            >p{
+                font-size: 12px;
+                text-indent: 1em;
+            }
+            >ul{
+                float: right;
+                >li:nth-of-type(1){
+                    list-style: none;
+                    width: 150px;
+                    height: 25px;
+                    background: url(../../src/images/wb_attention.png)no-repeat 80px 0,url(../../src/images/wb_attention.png)no-repeat 100px -58px;
+                    >a{
+                        text-decoration: none;
+                        font-size: 12px;
+                        color: #FFFFFF;
+                        float: right;
+                        margin-right: 5px;
+                        line-height: 25px;
+                    }
+                }
+                >li:nth-of-type(2){
+                    list-style: none;
+                    width: 150px;
+                    height: 25px;
+                    background: url(../../src/images/wb_attention.png)no-repeat 80px -29px,url(../../src/images/wb_attention.png)no-repeat 100px -87px;
+                    >a{
+                        text-decoration: none;
+                        font-size: 12px;
+                        color: #FFFFFF;
+                        float: right;
+                        margin-right: 5px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+    >.bottom_mid2{
+        width: 1200px;
+        height: 185px;
+        margin: 0 auto;
+        
+        margin-top: 70px;
+        >ul{
+            width: 1200px;
+            height: 185px;
+            >li{
+                float: left;
+                list-style: none;
+                width: 185px;
+                
+                text-align: center;
+                margin-left: 45px;
+                height: 20px;
+                border-right: 1px solid #CCCCCC;
+                
+                >p{
+                    line-height: 20px;
+                    font-size: 14px;
+                }
+                >ul{
+                    display: block !important;
+                    margin-top: 10px;
+                    >li{
+                        list-style: none;
+                        font-size: 12px;
+                        line-height: 20px;
+                        text-align: left;
+                        margin-left: 45px;
+                        >a{
+                            text-decoration: none;
+                            color: #636363;
+                        }
+                        >a:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            >li:nth-of-type(1){
+                background: url(../../src/images/helpcenter.gif)no-repeat 35px 0;
+            }
+            >li:nth-of-type(2){
+                background: url(../../src/images/helpcenter.gif)no-repeat 35px -116px;
+            }
+            >li:nth-of-type(3){
+                background: url(../../src/images/helpcenter.gif)no-repeat 35px -78px;
+            }
+            >li:nth-of-type(4){
+                background: url(../../src/images/helpcenter.gif)no-repeat 35px -154px;
+            }
+            >li:nth-of-type(5){
+                background: url(../../src/images/helpcenter.gif)no-repeat 35px -192px;
+                border-right: none;
+            }
+        }
+    }
+    >.bottom_b{
+        width: 1200px;
+        height: 220px;
+        margin: 0 auto;
+       overflow: hidden;
+        >div{
+            width: 620px;
+            text-align: center;
+            margin-left: 300px;
+            margin-top: 50px;
+            >a:nth-of-type(1){
+                display: block;
+                float: left;
+                width: 123px;
+                height: 45px;
+                background: url(../../src/images/certi20150925.png)no-repeat;
+            }
+            >a:nth-of-type(2){
+                display: block;
+                float: left;
+                width: 123px;
+                height: 45px;
+                background: url(../../src/images/certi20150925.png)no-repeat 0 -92px;
+            }
+            >a:nth-of-type(3){
+                display: block;
+                float: left;
+                width: 123px;
+                height: 45px;
+                background: url(../../src/images/certi20150925.png)no-repeat 0 -277px;
+            }
+            >a:nth-of-type(4){
+                display: block;
+                float: left;
+                width: 123px;
+                height: 45px;
+                background: url(../../src/images/certi20150925.png)no-repeat 0 -327px;
+            }
+            >a:nth-of-type(5){
+                display: block;
+                float: left;
+                width: 123px;
+                height: 45px;
+                background: url(../../src/images/certi20150925.png)no-repeat 0 -376px;
+            }
+            
+        }
+        >p:nth-of-type(1){
+            display: block;
+            width: 1200px;
+            
+            margin-top: 130px;
+            text-align: center;
+            font-size: 14px;
+            >a{
+                text-decoration: none;
+                color: #2D2D2C;
+                margin-left: 10px;
+            }
+            >a:hover{
+                text-decoration: underline;
+            }
+        }
+        >p:nth-of-type(2){
+            margin-top: 10px;
+            text-align: center;
+            font-size: 13px;
+            >span{
+                margin-left: 10px;
+            }
+        }
+    }
+}

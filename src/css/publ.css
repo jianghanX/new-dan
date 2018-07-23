@@ -1,0 +1,24 @@
+#main{
+	position: relative;   /*所有的盒子相对他来定位 的*/		
+	width:1212px;
+	height: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box{
+	padding:15px 0 0 13px; /* 要获取每列高度 =  图片和图片之间的距离*/
+	float: left;  /*块级元素水平排列*/
+}
+.pic{
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #CCCCCC; /*水平  垂直   阴影模糊程度   颜色*/
+}
+.pic img{
+	width:165px;
+	height: auto;
+}
+
+

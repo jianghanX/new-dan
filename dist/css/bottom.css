@@ -1,0 +1,216 @@
+.bottom {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 35px; }
+  .bottom > .bottom_t {
+    width: 1200px;
+    height: 60px; }
+    .bottom > .bottom_t > ul {
+      width: 1200px;
+      height: 60px; }
+      .bottom > .bottom_t > ul > li {
+        width: 389px;
+        height: 60px;
+        list-style: none;
+        float: left;
+        padding-right: 11px; }
+  .bottom > .bottom_mid {
+    width: 1200px;
+    height: 71px;
+    margin-top: 20px; }
+    .bottom > .bottom_mid > div {
+      float: left; }
+    .bottom > .bottom_mid > div:nth-of-type(1) {
+      width: 350px;
+      height: 71px;
+      background: url(../../src/images/infobook_qrcode_v1.png) no-repeat 0 -50px;
+      text-indent: 5em; }
+      .bottom > .bottom_mid > div:nth-of-type(1) > span {
+        font-size: 14px;
+        font-weight: 600; }
+      .bottom > .bottom_mid > div:nth-of-type(1) > p {
+        font-size: 12px;
+        line-height: 18px; }
+      .bottom > .bottom_mid > div:nth-of-type(1) > p:nth-of-type(1) {
+        margin-top: 15px; }
+    .bottom > .bottom_mid > div:nth-of-type(2) {
+      width: 350px;
+      height: 71px;
+      background: url(../../src/images/infobook_qrcode_v1.png) no-repeat 0 -128px;
+      text-indent: 5em; }
+      .bottom > .bottom_mid > div:nth-of-type(2) > span {
+        font-size: 14px;
+        font-weight: 600; }
+      .bottom > .bottom_mid > div:nth-of-type(2) > p {
+        font-size: 12px;
+        line-height: 18px; }
+      .bottom > .bottom_mid > div:nth-of-type(2) > p:nth-of-type(1) {
+        margin-top: 15px; }
+    .bottom > .bottom_mid > div:nth-of-type(3) {
+      width: 350px;
+      height: 71px; }
+      .bottom > .bottom_mid > div:nth-of-type(3) > div:nth-of-type(1) {
+        width: 350px;
+        height: 42px;
+        background: url(../../src/images/infobook_qrcode_v1.png) no-repeat;
+        text-indent: 3em; }
+        .bottom > .bottom_mid > div:nth-of-type(3) > div:nth-of-type(1) > span {
+          font-size: 14px;
+          font-weight: 600; }
+        .bottom > .bottom_mid > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1) {
+          margin-left: 50px; }
+        .bottom > .bottom_mid > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(2) {
+          margin-left: 15px; }
+        .bottom > .bottom_mid > div:nth-of-type(3) > div:nth-of-type(1) > a {
+          font-size: 12px;
+          color: #6C6C6C;
+          text-decoration: none; }
+        .bottom > .bottom_mid > div:nth-of-type(3) > div:nth-of-type(1) > a:hover {
+          text-decoration: underline; }
+      .bottom > .bottom_mid > div:nth-of-type(3) > div:nth-of-type(2) input {
+        width: 212px;
+        height: 19px; }
+      .bottom > .bottom_mid > div:nth-of-type(3) > div:nth-of-type(2) a {
+        width: 58px;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        background: #ff6600;
+        text-align: center;
+        line-height: 25px;
+        color: #FFFFFF;
+        text-decoration: none; }
+    .bottom > .bottom_mid > div:nth-of-type(4) {
+      width: 150px;
+      height: 70px; }
+      .bottom > .bottom_mid > div:nth-of-type(4) > p {
+        font-size: 12px;
+        text-indent: 1em; }
+      .bottom > .bottom_mid > div:nth-of-type(4) > ul {
+        float: right; }
+        .bottom > .bottom_mid > div:nth-of-type(4) > ul > li:nth-of-type(1) {
+          list-style: none;
+          width: 150px;
+          height: 25px;
+          background: url(../../src/images/wb_attention.png) no-repeat 80px 0, url(../../src/images/wb_attention.png) no-repeat 100px -58px; }
+          .bottom > .bottom_mid > div:nth-of-type(4) > ul > li:nth-of-type(1) > a {
+            text-decoration: none;
+            font-size: 12px;
+            color: #FFFFFF;
+            float: right;
+            margin-right: 5px;
+            line-height: 25px; }
+        .bottom > .bottom_mid > div:nth-of-type(4) > ul > li:nth-of-type(2) {
+          list-style: none;
+          width: 150px;
+          height: 25px;
+          background: url(../../src/images/wb_attention.png) no-repeat 80px -29px, url(../../src/images/wb_attention.png) no-repeat 100px -87px; }
+          .bottom > .bottom_mid > div:nth-of-type(4) > ul > li:nth-of-type(2) > a {
+            text-decoration: none;
+            font-size: 12px;
+            color: #FFFFFF;
+            float: right;
+            margin-right: 5px;
+            line-height: 25px; }
+  .bottom > .bottom_mid2 {
+    width: 1200px;
+    height: 185px;
+    margin: 0 auto;
+    margin-top: 70px; }
+    .bottom > .bottom_mid2 > ul {
+      width: 1200px;
+      height: 185px; }
+      .bottom > .bottom_mid2 > ul > li {
+        float: left;
+        list-style: none;
+        width: 185px;
+        text-align: center;
+        margin-left: 45px;
+        height: 20px;
+        border-right: 1px solid #CCCCCC; }
+        .bottom > .bottom_mid2 > ul > li > p {
+          line-height: 20px;
+          font-size: 14px; }
+        .bottom > .bottom_mid2 > ul > li > ul {
+          display: block !important;
+          margin-top: 10px; }
+          .bottom > .bottom_mid2 > ul > li > ul > li {
+            list-style: none;
+            font-size: 12px;
+            line-height: 20px;
+            text-align: left;
+            margin-left: 45px; }
+            .bottom > .bottom_mid2 > ul > li > ul > li > a {
+              text-decoration: none;
+              color: #636363; }
+            .bottom > .bottom_mid2 > ul > li > ul > li > a:hover {
+              text-decoration: underline; }
+      .bottom > .bottom_mid2 > ul > li:nth-of-type(1) {
+        background: url(../../src/images/helpcenter.gif) no-repeat 35px 0; }
+      .bottom > .bottom_mid2 > ul > li:nth-of-type(2) {
+        background: url(../../src/images/helpcenter.gif) no-repeat 35px -116px; }
+      .bottom > .bottom_mid2 > ul > li:nth-of-type(3) {
+        background: url(../../src/images/helpcenter.gif) no-repeat 35px -78px; }
+      .bottom > .bottom_mid2 > ul > li:nth-of-type(4) {
+        background: url(../../src/images/helpcenter.gif) no-repeat 35px -154px; }
+      .bottom > .bottom_mid2 > ul > li:nth-of-type(5) {
+        background: url(../../src/images/helpcenter.gif) no-repeat 35px -192px;
+        border-right: none; }
+  .bottom > .bottom_b {
+    width: 1200px;
+    height: 220px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .bottom > .bottom_b > div {
+      width: 620px;
+      text-align: center;
+      margin-left: 300px;
+      margin-top: 50px; }
+      .bottom > .bottom_b > div > a:nth-of-type(1) {
+        display: block;
+        float: left;
+        width: 123px;
+        height: 45px;
+        background: url(../../src/images/certi20150925.png) no-repeat; }
+      .bottom > .bottom_b > div > a:nth-of-type(2) {
+        display: block;
+        float: left;
+        width: 123px;
+        height: 45px;
+        background: url(../../src/images/certi20150925.png) no-repeat 0 -92px; }
+      .bottom > .bottom_b > div > a:nth-of-type(3) {
+        display: block;
+        float: left;
+        width: 123px;
+        height: 45px;
+        background: url(../../src/images/certi20150925.png) no-repeat 0 -277px; }
+      .bottom > .bottom_b > div > a:nth-of-type(4) {
+        display: block;
+        float: left;
+        width: 123px;
+        height: 45px;
+        background: url(../../src/images/certi20150925.png) no-repeat 0 -327px; }
+      .bottom > .bottom_b > div > a:nth-of-type(5) {
+        display: block;
+        float: left;
+        width: 123px;
+        height: 45px;
+        background: url(../../src/images/certi20150925.png) no-repeat 0 -376px; }
+    .bottom > .bottom_b > p:nth-of-type(1) {
+      display: block;
+      width: 1200px;
+      margin-top: 130px;
+      text-align: center;
+      font-size: 14px; }
+      .bottom > .bottom_b > p:nth-of-type(1) > a {
+        text-decoration: none;
+        color: #2D2D2C;
+        margin-left: 10px; }
+      .bottom > .bottom_b > p:nth-of-type(1) > a:hover {
+        text-decoration: underline; }
+    .bottom > .bottom_b > p:nth-of-type(2) {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 13px; }
+      .bottom > .bottom_b > p:nth-of-type(2) > span {
+        margin-left: 10px; }

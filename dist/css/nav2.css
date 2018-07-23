@@ -1,0 +1,353 @@
+body, div, ul, li, p, a, img, span, ol, dl, dt, dd, h1, h2, h3, h4, h5, h6, input {
+  margin: 0;
+  padding: 0; }
+
+.nav2 {
+  height: 42px;
+  background: #f0f0f0;
+  overflow: hidden; }
+  .nav2 > div {
+    width: 1200px;
+    height: 42px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .nav2 > div > div:nth-of-type(1) {
+      width: 333px;
+      height: 30px;
+      float: left; }
+      .nav2 > div > div:nth-of-type(1) > a {
+        font-size: 12px;
+        text-decoration: none;
+        color: #777; }
+      .nav2 > div > div:nth-of-type(1) > span {
+        font-size: 12px;
+        color: #777; }
+    .nav2 > div > div:nth-of-type(2) {
+      width: 500px;
+      height: 34px;
+      float: right;
+      margin-top: 3px; }
+      .nav2 > div > div:nth-of-type(2) > span {
+        font-size: 13px;
+        color: #777;
+        display: block;
+        float: left;
+        margin-top: 10px; }
+      .nav2 > div > div:nth-of-type(2) > ul {
+        display: inline-block;
+        margin-left: 10px;
+        float: left; }
+        .nav2 > div > div:nth-of-type(2) > ul > li {
+          width: 40px;
+          height: 34px;
+          border: 1px #000000 dashed;
+          float: left;
+          list-style: none;
+          margin-left: 2px; }
+      .nav2 > div > div:nth-of-type(2) > a {
+        display: inline-block;
+        width: 67px;
+        height: 34px;
+        border: 1px solid #BFBFBF;
+        background: #F6F6F6;
+        text-align: center;
+        line-height: 34px;
+        font-size: 13px;
+        color: #777;
+        margin-left: 15px;
+        text-decoration: none; }
+
+.xiangqing {
+  height: 57px;
+  background: #f0f0f0;
+  overflow: hidden; }
+  .xiangqing > div {
+    width: 1200px;
+    height: 57px;
+    margin: 0 auto; }
+    .xiangqing > div > ul {
+      width: 544px;
+      height: 39px;
+      float: left;
+      margin-top: 18px; }
+      .xiangqing > div > ul > li {
+        padding: 0 5px;
+        height: 39px;
+        list-style: none;
+        float: left;
+        line-height: 39px; }
+        .xiangqing > div > ul > li > a {
+          font-size: 16px;
+          color: #777;
+          padding: 0 5px;
+          text-decoration: none; }
+      .xiangqing > div > ul > li:nth-of-type(1) {
+        background: #FFFFFF;
+        border-top: 2px solid #FF6600; }
+        .xiangqing > div > ul > li:nth-of-type(1) > a {
+          font-weight: 600;
+          color: #000000; }
+    .xiangqing > div > p {
+      float: right;
+      line-height: 57px;
+      font-size: 12px;
+      color: #777; }
+
+.tu {
+  width: 1200px;
+  height: 590px;
+  margin: 0 auto; }
+  .tu > #tul {
+    position: relative; }
+    .tu > #tul > #div1 {
+      width: 450px;
+      height: 450px;
+      float: left; }
+      .tu > #tul > #div1 > img {
+        width: 450px;
+        height: 450px;
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .tu > #tul > #div1 > #jingzi {
+        width: 200px;
+        height: 200px;
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none; }
+    .tu > #tul > #div2 {
+      width: 450px;
+      height: 450px;
+      position: absolute;
+      top: 0;
+      left: 450px;
+      display: none;
+      overflow: hidden; }
+      .tu > #tul > #div2 > img {
+        width: 900px;
+        height: 900px;
+        position: absolute;
+        top: 0;
+        left: 0; }
+    .tu > #tul > .tub {
+      width: 450px;
+      height: 80px;
+      position: absolute;
+      top: 460px;
+      left: 0; }
+      .tu > #tul > .tub > img {
+        float: left;
+        width: 100px;
+        height: 80px;
+        padding: 0 20px; }
+      .tu > #tul > .tub img:hover {
+        cursor: pointer; }
+  .tu > .tur {
+    width: 710px;
+    height: 560px;
+    overflow: hidden; }
+    .tu > .tur > h1 {
+      font-size: 20px;
+      margin-top: 40px; }
+    .tu > .tur > p {
+      font-size: 14px;
+      color: #ff1200;
+      font-weight: bold; }
+    .tu > .tur > div {
+      width: 511px;
+      overflow: hidden;
+      float: left; }
+      .tu > .tur > div > ul {
+        width: 511px;
+        overflow: hidden; }
+        .tu > .tur > div > ul > li {
+          list-style: none;
+          overflow: hidden; }
+        .tu > .tur > div > ul > li:nth-of-type(1) {
+          width: 511px;
+          font-size: 12px;
+          padding: 10px 0; }
+          .tu > .tur > div > ul > li:nth-of-type(1) > p {
+            float: left; }
+          .tu > .tur > div > ul > li:nth-of-type(1) > a {
+            color: #777;
+            text-decoration: none;
+            margin-left: 15px; }
+        .tu > .tur > div > ul > li:nth-of-type(2) {
+          width: 511px;
+          font-size: 12px;
+          padding: 10px 0; }
+          .tu > .tur > div > ul > li:nth-of-type(2) > p {
+            float: left; }
+          .tu > .tur > div > ul > li:nth-of-type(2) > p:nth-of-type(2) {
+            margin-left: 17px; }
+        .tu > .tur > div > ul > li:nth-of-type(3) {
+          width: 511px;
+          font-size: 12px;
+          padding: 10px 0;
+          height: 45px;
+          line-height: 45px; }
+          .tu > .tur > div > ul > li:nth-of-type(3) > p {
+            float: left; }
+          .tu > .tur > div > ul > li:nth-of-type(3) > p:nth-of-type(2) {
+            margin-left: 17px;
+            color: #FF6600; }
+          .tu > .tur > div > ul > li:nth-of-type(3) > span {
+            font-size: 28px;
+            color: #ff6600; }
+        .tu > .tur > div > ul > li:nth-of-type(4) {
+          width: 511px;
+          font-size: 12px;
+          padding: 10px 0;
+          height: 45px;
+          line-height: 45px; }
+          .tu > .tur > div > ul > li:nth-of-type(4) > p {
+            float: left; }
+          .tu > .tur > div > ul > li:nth-of-type(4) > p:nth-of-type(2) {
+            margin-left: 17px; }
+        .tu > .tur > div > ul > li:nth-of-type(5) {
+          width: 511px;
+          font-size: 12px;
+          padding: 10px 0; }
+          .tu > .tur > div > ul > li:nth-of-type(5) > p {
+            float: left;
+            margin-top: 5px; }
+          .tu > .tur > div > ul > li:nth-of-type(5) > a {
+            display: block;
+            float: left;
+            text-decoration: none;
+            margin-left: 15px;
+            color: #888;
+            border: 1px dashed #D3D3D3;
+            width: 50px;
+            text-align: center;
+            line-height: 25px;
+            height: 25px; }
+        .tu > .tur > div > ul > li:nth-of-type(6) {
+          width: 511px;
+          font-size: 12px;
+          padding: 10px 0; }
+          .tu > .tur > div > ul > li:nth-of-type(6) > p {
+            float: left;
+            margin-top: 5px; }
+          .tu > .tur > div > ul > li:nth-of-type(6) > a {
+            display: block;
+            float: left;
+            text-decoration: none;
+            margin-left: 15px;
+            color: #888;
+            border: 1px dashed #D3D3D3;
+            width: 50px;
+            text-align: center;
+            line-height: 25px;
+            height: 25px; }
+        .tu > .tur > div > ul > li:nth-of-type(7) {
+          width: 511px;
+          font-size: 12px;
+          padding: 10px 0;
+          overflow: hidden; }
+          .tu > .tur > div > ul > li:nth-of-type(7) > p {
+            float: left;
+            margin-top: 5px; }
+          .tu > .tur > div > ul > li:nth-of-type(7) > a {
+            display: block;
+            float: left;
+            text-decoration: none;
+            margin-left: 15px;
+            color: #888;
+            border: 1px dashed #D3D3D3;
+            width: 50px;
+            text-align: center;
+            line-height: 25px;
+            height: 25px; }
+          .tu > .tur > div > ul > li:nth-of-type(7) > span:hover {
+            cursor: pointer; }
+          .tu > .tur > div > ul > li:nth-of-type(7) > input {
+            width: 50px;
+            margin-top: 3px;
+            outline: none;
+            text-align: center; }
+        .tu > .tur > div > ul > li:nth-of-type(8) {
+          width: 486px;
+          height: 137px;
+          font-size: 12px;
+          padding: 10px 0;
+          overflow: hidden;
+          margin-top: 30px; }
+          .tu > .tur > div > ul > li:nth-of-type(8) > input:nth-of-type(1) {
+            width: 214px;
+            height: 47px;
+            background: #ff6600;
+            border: none;
+            margin-left: 15px;
+            color: #FFFFFF; }
+          .tu > .tur > div > ul > li:nth-of-type(8) > input:nth-of-type(1):hover {
+            background: #ff7700; }
+          .tu > .tur > div > ul > li:nth-of-type(8) > input:nth-of-type(2) {
+            width: 214px;
+            height: 47px;
+            background: blue;
+            border: none;
+            margin-left: 15px;
+            color: #FFFFFF; }
+          .tu > .tur > div > ul > li:nth-of-type(8) > input:nth-of-type(2):hover {
+            background: #406FEF; }
+          .tu > .tur > div > ul > li:nth-of-type(8) > a {
+            display: block;
+            float: left;
+            border: 1px solid #626262;
+            margin-top: 5px;
+            margin-left: 15px;
+            text-align: center;
+            line-height: 34px;
+            height: 34px;
+            text-decoration: none;
+            color: #000000; }
+          .tu > .tur > div > ul > li:nth-of-type(8) > a:nth-of-type(1) {
+            width: 100px;
+            height: 34px; }
+          .tu > .tur > div > ul > li:nth-of-type(8) > a:nth-of-type(2) {
+            width: 100px;
+            height: 34px; }
+          .tu > .tur > div > ul > li:nth-of-type(8) > a:nth-of-type(3) {
+            width: 165px;
+            height: 34px; }
+    .tu > .tur > .tur_r {
+      width: 197px;
+      overflow: hidden;
+      float: right;
+      border-left: 1px solid #777; }
+      .tu > .tur > .tur_r > p {
+        border-bottom: 1px solid #777;
+        margin-left: 10px; }
+        .tu > .tur > .tur_r > p > a {
+          color: #777777;
+          font-size: 12px;
+          text-decoration: none;
+          margin-left: 30px; }
+      .tu > .tur > .tur_r > div:nth-of-type(1) {
+        margin-left: 10px;
+        margin-top: 10px;
+        border-bottom: 1px solid #777;
+        padding-bottom: 10px; }
+        .tu > .tur > .tur_r > div:nth-of-type(1) > span {
+          display: block;
+          width: 180px;
+          height: 20px;
+          color: #FF6600;
+          font-size: 26px;
+          font-weight: 600;
+          line-height: 20px;
+          background: url(../../src/images/pro_l_10.png) no-repeat 86px 0; }
+        .tu > .tur > .tur_r > div:nth-of-type(1) > p {
+          font-size: 12px;
+          color: #777777;
+          margin-top: 10px; }
+      .tu > .tur > .tur_r > div:nth-of-type(2) {
+        width: 70px;
+        height: 70px;
+        background: url(../../src/images/infobook_qrcode_v1.png) no-repeat 0 -130px black;
+        margin-top: 30px;
+        margin-left: 60px; }

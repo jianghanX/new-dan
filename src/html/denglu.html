@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../../dist/css/denglu.css"/>
+		<link rel="stylesheet" type="text/css" href="../../dist/css/bottom.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_m">
+				<div class="header_l">
+					<a href="#"><p>掌上新蛋</p></a>
+					<a href="#"><p>企业团购</p></a>
+				</div>
+				<div class="header_r">
+					<div class="header_r_l">
+						<a href="#">注册</a><a href="#">登录</a><p>下午好！欢迎来新蛋购物</p>
+					</div>
+					<div class="header_r_r">
+						<ul>
+							<li><a href="#">我的订单</a></li>
+							<li id="newe">
+								<a href="#">我的新蛋</a>
+								<ul>
+									<li>请&nbsp;&nbsp;&nbsp;<a href="#">登录</a>&nbsp;&nbsp;&nbsp;后查看</li>
+								</ul>
+							</li>
+							<li><a href="#">帮助中心</a></li>
+							<li id="kefu">
+								<a href="#">客户服务</a>
+								<ul>
+									<li>400-820-4400</li>
+									<li>021-67072699</li>
+									<li>每天 9:00 - 18:00</li>
+									<li>
+										<a href="#">在线咨询</a>
+										<a href="#">邮件我们</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="logoo">
+			<img src="../images/logocn_1213.png"/>
+			<p>欢迎登录</p>
+		</div>
+		<div class="denglu">
+			<div class="denglu_m">
+				<img src="../images/485x205.jpg"/>
+				<div class="biaodan">
+					<form action="">
+						<div class="biaodan_t">
+							<p>登录新蛋</p>
+							<a href="#">注册新用户>></a>
+						</div>
+						<ul id="yanzheng">
+							<li><input type="text" name="username" id="username" value="用户名/已验证手机或邮箱" /><br /><span id="spauser1" style="color: red;">
+								
+							</span></li>
+							<li><input type="password" name="password" id="password" value="" /><br /><span id="spauser2" style="color: red;">
+								
+							</span></li>
+						</ul>
+						<div class="anquan">
+							<a href="#">账户安全</a>
+							<a href="#">忘记密码?</a>
+						</div>
+						<div class="anniu">
+							<input type="button" name="btn" id="btn" value="立即登录" />
+						</div>
+						<div class="wenzi">您还可以使用以下合作伙伴的账户登录新蛋网：</div>
+						<div class="lianjie">
+							<a href="#">支付宝</a>
+							<a href="#">QQ</a>
+							<a href="#">微信</a>
+							<a href="#">新浪微博</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			
+			
+			
+			<div class="bottom_b">
+				<div>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+				</div>
+				<p>
+					新蛋集团网站：
+					<a href="#">美国新蛋</a>
+					<a href="#">中国新蛋</a>
+					<a href="#">加拿大新蛋</a>
+					<a href="#">新蛋软件</a>
+				</p>
+				<p>
+					<span>© 2001-2018</span>
+					<span>新蛋商贸（上海）有限公司</span>
+					<span>版权所有</span>
+					<span>沪ICP备:16033615</span>
+				</p>
+			</div>
+		</div>
+		<script type="text/javascript">
+			btn.onclick = function () {
+				
+					var name1 = document.getElementById("username").value;
+					var name2 = document.getElementById("password").value;
+					
+					if (name1 == ""||name1 == "用户名/已验证手机或邮箱") {
+						spauser1.innerHTML = "输入正确用户名"
+					}else{
+						spauser1.innerHTML = ""
+					}
+					if (/^.{6,12}$/.test(name2)||name1 == "用户名/已验证手机或邮箱") {
+						spauser2.innerHTML = ""
+					}else{
+						spauser2.innerHTML = "密码必须在6-12之间"
+					}
+//					var xhr = new XMLHttpRequest();
+//					xhr.open("POST","../php/conn.php",true);
+//					xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+//					xhr.send('"user='+name1+'$pwd='+name2+'"');
+//					
+//					xhr.onreadystatechange = function () {
+//						if (xhr.readyState == 4 && xhr.status == 200) {
+//							console.log(xhr.responseText)
+//						}
+//					}
+					$.ajax({
+						type:"POST",
+						url:"../php/conn.php",
+						async:true,
+						data:{"user":name1,"pwd":name2},
+						success:function(str){
+							
+							if (str == 1) {
+								location.href = "index.html"
+							}else{
+								alert("登录失败")
+							}
+							
+						},
+						error:function(){
+							alert(str)
+						}
+					});
+					
+				}
+				
+			
+		</script>
+		<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="../js/gouw.js"></script>
+		<script type="text/javascript" src="../js/header.js"></script>
+		<script type="text/javascript" src="../js/startMove.js"></script>
+	</body>
+</html>

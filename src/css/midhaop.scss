@@ -1,0 +1,597 @@
+body,
+div,
+ul,
+li,
+p,
+a,
+img,
+span,
+ol,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.mid_haop{
+    width: 1200px;
+    height: 323px;
+    margin: 0 auto;
+    margin-top: 10px;
+    .mid_haop_t{
+        width: 1200px;
+        height: 48px;
+        line-height: 48px;
+        >h2{
+            color: #FF6600;
+            margin: 10px;
+            line-height: 18px;
+            font-size: 18px;
+            display: inline-block;
+        }
+        >span{
+            float: right;
+            font-size: 12px;
+            color: #66695E;
+        }
+    }
+    .mid_haop_b{
+        width: 1200px;
+        height: 275px;
+        border: 1px solid #CCCCCC;
+        border-top: 2px solid #FF6600;
+        overflow: hidden;
+        >ul{
+            width: 1720px;
+            height: 275px;
+            >li{
+                list-style: none;
+                float: left;
+                width: 170px;
+                height: 275px;
+                position: relative;
+                border-left: 1px solid #CCCCCC;
+            }
+            >li:nth-of-type(1){
+                 background: #FFFFFF;
+                >div:nth-of-type(1){
+                    width: 300px;
+                    height: 239px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+                >div:nth-of-type(2){
+                    width: 338px;
+                    height: 208px;
+                    float: right;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 320px;
+                    >span{
+                        color: #FF6600;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                    >a:nth-of-type(1){
+                        font-size: 13px;
+                        color: #332a3b;
+                        text-decoration: none;
+                    }
+                    >a:nth-of-type(1):hover{
+                        text-decoration: underline;
+                    }
+                    >p{
+                        color: #676767;
+                        font-size: 12px;
+                        margin-top: 20px;
+                    }
+                    >a:nth-of-type(2){
+                        display: inline-block;
+                        width: 100px;
+                        height: 12px;
+                        margin-top: 100px;
+                        font-size: 12px;
+                        line-height: 12px;
+                        text-indent: 6em;
+                        float: left;
+                        text-decoration: none;
+                        background: url(../../src/images/flat_rank.gif)no-repeat;
+                    }
+                    >a:nth-of-type(2):hover{
+                        color: #FF6600;
+                    }
+                    >div{
+                        width: 150px;
+                        height: 50px;
+                        float: right;
+                        margin-top: 100px;
+                        font-size: 12px;
+                        color: #6a654f;
+                        >span{
+                            >span{
+                                display: block;
+                                margin-left: 60px;
+                                margin-top: -20px;
+                                width: 50px;
+                                height: 71px;
+                                background: url(../../src/images/user140106.jpg)no-repeat -100px -300px;
+                            }
+                        }
+                    }
+                }
+            }
+            >li:nth-of-type(2){
+                background: #FFFFFF;
+               >div:nth-of-type(1){
+                    width: 300px;
+                    height: 239px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+                >div:nth-of-type(2){
+                    width: 338px;
+                    height: 208px;
+                    float: right;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 320px;
+                    >span{
+                        color: #FF6600;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                    >a:nth-of-type(1){
+                        font-size: 13px;
+                        color: #332a3b;
+                        text-decoration: none;
+                    }
+                    >a:nth-of-type(1):hover{
+                        text-decoration: underline;
+                    }
+                    >p{
+                        color: #676767;
+                        font-size: 12px;
+                        margin-top: 20px;
+                    }
+                    >a:nth-of-type(2){
+                        display: inline-block;
+                        width: 100px;
+                        height: 12px;
+                        margin-top: 100px;
+                        font-size: 12px;
+                        line-height: 12px;
+                        text-indent: 6em;
+                        float: left;
+                        text-decoration: none;
+                        background: url(../../src/images/flat_rank.gif)no-repeat;
+                    }
+                    >a:nth-of-type(2):hover{
+                        color: #FF6600;
+                    }
+                    >div{
+                        width: 150px;
+                        height: 50px;
+                        float: right;
+                        margin-top: 100px;
+                        font-size: 12px;
+                        color: #6a654f;
+                        >span{
+                            >span{
+                                display: block;
+                                margin-left: 60px;
+                                margin-top: -25px;
+                                width: 67px;
+                                height: 71px;
+                                background: url(../../src/images/user140106.jpg)no-repeat 20px -250px;
+                            }
+                        }
+                    }
+                }
+            }
+            >li:nth-of-type(3){
+                background: #FFFFFF;
+                background: #FFFFFF;
+               >div:nth-of-type(1){
+                    width: 300px;
+                    height: 239px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+                >div:nth-of-type(2){
+                    width: 338px;
+                    height: 208px;
+                    float: right;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 320px;
+                    >span{
+                        color: #FF6600;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                    >a:nth-of-type(1){
+                        font-size: 13px;
+                        color: #332a3b;
+                        text-decoration: none;
+                    }
+                    >a:nth-of-type(1):hover{
+                        text-decoration: underline;
+                    }
+                    >p{
+                        color: #676767;
+                        font-size: 12px;
+                        margin-top: 20px;
+                    }
+                    >a:nth-of-type(2){
+                        display: inline-block;
+                        width: 100px;
+                        height: 12px;
+                        margin-top: 100px;
+                        font-size: 12px;
+                        line-height: 12px;
+                        text-indent: 6em;
+                        float: left;
+                        text-decoration: none;
+                        background: url(../../src/images/flat_rank.gif)no-repeat;
+                    }
+                    >a:nth-of-type(2):hover{
+                        color: #FF6600;
+                    }
+                    >div{
+                        width: 150px;
+                        height: 50px;
+                        float: right;
+                        margin-top: 100px;
+                        font-size: 12px;
+                        color: #6a654f;
+                        >span{
+                            >span{
+                                display: block;
+                                margin-left: 60px;
+                                margin-top: -20px;
+                                width: 67px;
+                                height: 71px;
+                                background: url(../../src/images/user140106.jpg)no-repeat 20px -205px;
+                            }
+                        }
+                    }
+                }
+            }
+            >li:nth-of-type(4){
+                width: 690px;
+                background: #FFFFFF;
+                background: #FFFFFF;
+               >div:nth-of-type(1){
+                    width: 300px;
+                    height: 239px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+                >div:nth-of-type(2){
+                    width: 338px;
+                    height: 208px;
+                    float: right;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 320px;
+                    >span{
+                        color: #FF6600;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                    >a:nth-of-type(1){
+                        font-size: 13px;
+                        color: #332a3b;
+                        text-decoration: none;
+                    }
+                    >a:nth-of-type(1):hover{
+                        text-decoration: underline;
+                    }
+                    >p{
+                        color: #676767;
+                        font-size: 12px;
+                        margin-top: 20px;
+                    }
+                    >a:nth-of-type(2){
+                        display: inline-block;
+                        width: 100px;
+                        height: 12px;
+                        margin-top: 100px;
+                        font-size: 12px;
+                        line-height: 12px;
+                        text-indent: 6em;
+                        float: left;
+                        text-decoration: none;
+                        background: url(../../src/images/flat_rank.gif)no-repeat;
+                    }
+                    >a:nth-of-type(2):hover{
+                        color: #FF6600;
+                    }
+                    >div{
+                        width: 150px;
+                        height: 50px;
+                        float: right;
+                        margin-top: 100px;
+                        font-size: 12px;
+                        color: #6a654f;
+                        >span{
+                            >span{
+                                display: block;
+                                margin-left: 60px;
+                                margin-top: -20px;
+                                width: 45px;
+                                height: 71px;
+                                background: url(../../src/images/user140106.jpg)no-repeat -50px -255px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.xianshi{
+    display: block !important;
+}
+.mid_xingq{
+    width: 1200px;
+    height: 270px;
+    margin: 0 auto;
+    border: 1px solid #CCCCCC;
+    margin-top: 20px;
+    div:nth-of-type(1){
+        width: 960px;
+        height: 270px;
+        float: left;
+        position: relative;
+        >ul:nth-of-type(1){
+            width: 960px;
+            height: 30px;
+            >li{
+                width: 240px;
+                height: 30px;
+                list-style: none;
+                float:left;
+                
+                position: relative;
+                >a{
+                    text-align: center;
+                    display: block;
+                    line-height: 30px;
+                    font-size: 12px;
+                    text-decoration: none;
+                    color: #5b6566;
+                    border-bottom: 1px solid #CCCCCC;
+                    border-right: 1px solid #CCCCCC;
+                }
+           
+                >a:hover{
+                    border-bottom: none;
+                    color: #ff6600;
+                }
+            }
+        }
+        >ul{
+            >li{
+                list-style: none;
+                float: left;
+                
+            }
+        }
+        >ul:nth-of-type(2){
+           
+            width: 960px;
+            height: 239px;
+            margin-top: 1px;
+            position: absolute;
+            top: 30px;
+            left: 0;
+           >li{
+               width: 186px;
+               height: 183px;
+               
+               margin-top: 30px;
+               text-align: center;
+               a{
+                   text-decoration: none;
+                   font-size: 12px;
+                   color: #6c6c6c;
+                   display: block;
+                   width: 150px;
+                   height: 12px;
+                   text-align: right;
+                   background: url(../../src/images/overseashopping12.png)no-repeat 20px;
+                   margin-top: 10px;
+               }
+               a:hover{
+                    text-decoration: underline;
+               }
+               dd:nth-of-type(2){
+                   margin-top: 10px;
+                   font-size: 12px;
+                   >del{
+                       color: #929e94;
+                   }
+                   >span{
+                       font-size: 13px;
+                       font-weight: 600;
+                       color: #ff6600;
+                   }
+               }
+           }
+           
+        }
+        >ul:nth-of-type(3){
+            
+            width: 960px;
+            height: 239px;
+            margin-top: 1px;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            display: none;
+            >li{
+               width: 186px;
+               height: 183px;
+               
+               margin-top: 30px;
+               text-align: center;
+               a{
+                   text-decoration: none;
+                   font-size: 12px;
+                   color: #6c6c6c;
+                   display: block;
+                   width: 150px;
+                   height: 12px;
+                   text-align: right;
+                   background: url(../../src/images/overseashopping12.png)no-repeat 20px;
+                   margin-top: 10px;
+               }
+               a:hover{
+                    text-decoration: underline;
+                }
+               dd:nth-of-type(2){
+                   margin-top: 10px;
+                   font-size: 12px;
+                   >del{
+                       color: #929e94;
+                   }
+                   >span{
+                       font-size: 13px;
+                       font-weight: 600;
+                       color: #ff6600;
+                   }
+               }
+           }
+        }
+        >ul:nth-of-type(4){
+            
+            width: 960px;
+            height: 239px;
+            margin-top: 1px;
+           display: none;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            >li{
+               width: 186px;
+               height: 183px;
+               
+               margin-top: 30px;
+               text-align: center;
+               a{
+                   text-decoration: none;
+                   font-size: 12px;
+                   color: #6c6c6c;
+                   display: block;
+                   width: 150px;
+                   height: 12px;
+                   text-align: right;
+                   background: url(../../src/images/overseashopping12.png)no-repeat 20px;
+                   margin-top: 10px;
+               }
+               a:hover{
+                    text-decoration: underline;
+                }
+               dd:nth-of-type(2){
+                   margin-top: 10px;
+                   font-size: 12px;
+                   >del{
+                       color: #929e94;
+                   }
+                   >span{
+                       font-size: 13px;
+                       font-weight: 600;
+                       color: #ff6600;
+                   }
+               }
+           }
+        }
+        >ul:nth-of-type(5){
+           
+            width: 960px;
+            height: 239px;
+            margin-top: 1px;
+           display: none;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            >li{
+               width: 186px;
+               height: 183px;
+              
+               margin-top: 30px;
+               text-align: center;
+               a{
+                   text-decoration: none;
+                   font-size: 12px;
+                   color: #6c6c6c;
+                   display: block;
+                   width: 150px;
+                   height: 12px;
+                   text-align: right;
+                   background: url(../../src/images/overseashopping12.png)no-repeat 20px;
+                   margin-top: 10px;
+               }
+               a:hover{
+                    text-decoration: underline;
+                }
+               dd:nth-of-type(2){
+                   margin-top: 10px;
+                   font-size: 12px;
+                   >del{
+                       color: #929e94;
+                   }
+                   >span{
+                       font-size: 13px;
+                       font-weight: 600;
+                       color: #ff6600;
+                   }
+               }
+           }
+        }
+        
+    }
+    div:nth-of-type(2){
+        width: 238px;
+        height: 270px;
+        float: right;
+        position: relative;
+        overflow: hidden;
+        >ul{
+            width: 716px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            >li{
+                float: left;
+                list-style: none;
+            }
+        }
+        >ol{
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            >li{
+                list-style: none;
+                float: left;
+                width: 10px;
+                height: 10px;
+                background: #5B6566;
+                border-radius: 50%;
+                margin-left: 5px;
+            }
+        }
+    }
+}

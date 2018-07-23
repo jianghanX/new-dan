@@ -1,0 +1,136 @@
+<!doctype html>
+<title>无缝轮播</title>
+<meta charset="utf-8">
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	
+	body{
+		padding:20px;
+	}
+	
+	/*设置图片显示大小区域*/
+	#cont{
+		position:relative;
+		width:600px;
+		height:400px;
+		border:3px solid #333;
+		/*overflow:visible;*/
+		overflow:hidden;
+	}
+	
+	/*设置7张图片的总宽度*/
+	#list{
+		width:4200px;
+		height:400px;
+		position:absolute;
+		z-index:1;
+	}
+	
+	/*设置单张图片的样式*/
+	#list img{
+		width:600px;
+		height:400px;
+		float:left;
+	}
+
+	/*设置箭头的共有样式*/
+	.arrow{
+		position:absolute;
+		top:180px;
+		z-index:2;
+		width:40px;
+		height:40px;
+		background:rgba(0,0,0,0.3);
+		font-size:40px;
+		line-height:40px;
+		text-align:center;
+		display:none;
+	}
+	
+	#prev{
+		left:20px;
+	}
+	#next{
+		right:20px;
+	}
+	
+	#cont:hover .arrow{
+		display:block;
+	}
+</style>
+<!--存放图片容器-->
+<div id="cont">
+	<!--存放所有的图片-->
+	<!--显示第一张 list偏移-->
+	<div id="list" style="left:-600px">
+		<img src="img/5.jpg">
+		<img src="img/1.jpg">
+		<img src="img/2.jpg">
+		<img src="img/3.jpg">
+		<img src="img/4.jpg">
+		<img src="img/5.jpg">
+		<img src="img/1.jpg">
+	</div>
+	<!--左右按钮-->
+	<a id="prev" class="arrow">&lt;</a>
+	<a id="next" class="arrow">&gt;</a>
+</div>
+<script>
+	//获取元素list prev next
+	var list=document.getElementById('list');
+	var prev=document.getElementById('prev');
+	var next=document.getElementById('next');
+	var cont=document.getElementById('cont');
+	
+	//设置共用函数
+	function animate(offset){
+		//获取新的left值
+		var newleft=parseInt(list.style.left)+offset;
+		console.log(newleft);
+		
+		//判断条件newleft的值 走到第五张图片
+		if(newleft<-3000){
+			//从第一张重新走
+			newleft=-600;
+		}
+		
+		//判断newleft的值
+		if(newleft>-600){
+			//重新赋值 0 4200 -3000
+			newleft=-3000;
+		}
+		
+		//重新赋值
+		list.style.left=newleft+'px';
+	}
+	
+	//next 点击事件 下一张 list减少600
+	next.onclick=function(){
+		//调用函数
+		animate(-600);
+	}
+	
+	//prev 点击事件 上一张 list加600
+	prev.onclick=function(){
+		//调用函数
+		animate(600);
+	}
+	
+	//自动
+	function pao(){
+		run=setInterval(function(){
+			//走下一张图片
+			next.onclick();
+		},1000);
+	}
+	pao();
+	//鼠标移入移出事件
+	cont.onmouseover=function(){
+		clearInterval(run);
+	}
+	//鼠标移出 继续执行pao函数
+	cont.onmouseout=pao;
+</script>

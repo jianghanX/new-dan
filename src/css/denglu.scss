@@ -1,0 +1,172 @@
+body, div, ul, li, p, a, img, span, ol, dl, dt, dd, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+.logoo{
+    width: 1200px;
+    height: 107px;
+    margin: 0 auto;
+    
+    >img{
+        float: left;
+        margin-top: 20px;
+    }
+    >p{
+        height: 90px;
+        font-size: 24px;
+        display: inline-block;
+        margin-left: 100px;
+        border-left: 1px solid #CCCCCC;
+        line-height: 90px;
+        color: #444;
+        text-indent: 2em;
+        margin-top: 10px;
+    }
+}
+.denglu{
+    height: 483px;
+    background: #E3E3E3;
+    >.denglu_m{
+        width: 1200px;
+        height: 483px;
+        margin: 0 auto;
+        overflow: hidden;
+        >img:nth-of-type(1){
+            width: 478px;
+            height: 362px;
+            margin-top: 60px;
+            float: left;
+        }
+        >.biaodan{
+            width: 362px;
+            height: 395px;
+            background: #FFFFFF;
+            margin-left: 700px;
+            margin-top: 60px;
+            overflow: hidden;
+            >form{
+                overflow: hidden;
+                >.biaodan_t{
+                    width: 305px;
+                    height: 21px;
+                    
+                    margin-top: 20px;
+                    margin-left: 30px;
+                    >p{
+                        display: inline-block;
+                        font-size: 18px;
+                    }
+                    >a{
+                        font-size: 12px;
+                        float: right;
+                        text-decoration: none;
+                        line-height: 21px;
+                        margin-right: 20px;
+                    }
+                    >a:hover{
+                        text-decoration: underline;
+                    }
+                }
+                >#yanzheng{
+                    width: 305px;
+                    margin-left: 30px;
+                   overflow: hidden;
+                    >li{
+                        width: 305px;
+                        list-style: none;
+                        >input{
+                            width: 252px;
+                            height: 27px;
+                            color: #777;
+                            margin-top: 20px;
+                            margin-left: 30px;
+                            outline: none;
+                        }
+                    }
+                    >li:nth-of-type(1){
+                        background: url(../../src/images/login_icon.png)no-repeat 0 20px;
+                    }
+                    >li:nth-of-type(2){
+                        background: url(../../src/images/login_icon.png)no-repeat 0 -39px;
+                    }
+                }
+                >.anquan{
+                    width: 305px;
+                    height: 15px;
+                    
+                    margin-left: 30px;
+                    margin-top: 20px;
+                    line-height: 14px;
+                    >a{
+                        font-size: 12px;
+                        text-decoration: none;
+                        
+                    }
+                    >a:hover{
+                        text-decoration: underline;
+                    }
+                    >a:nth-of-type(2){
+                        float: right;
+                        margin-right: 20px;
+                    }
+                }
+                >.anniu{
+                    width: 305px;
+                    height: 40px;
+                    margin-left: 30px;
+                    margin-top: 20px;
+                    >input{
+                        width: 290px;
+                        height: 40px;
+                        background: #FF6600;
+                        outline: none;
+                        border: none;
+                        border-radius: 5px;
+                        color: #FFFFFF;
+                    }
+                }
+                >.wenzi{
+                    width: 305px;
+                    height: 20px;
+                    margin-top: 20px;
+                    margin-left: 30px;
+                    color: #999;
+                    font-size: 12px;
+                }
+                >.lianjie{
+                    
+                    overflow: hidden;
+                    margin-left: 10px;
+                    margin-top: 30px;
+                    >a{
+                        display: inline-block;
+                        width: 78px;
+                        height: 30px;
+                        font-size: 12px;
+                       padding: 0 1px;
+                        color: #999999;
+                        line-height: 30px;
+                        text-decoration: none;
+                        text-indent: 2.5em;
+                    }
+                    >a:hover{
+                        text-decoration: underline;
+                    }
+                    >a:nth-of-type(1){
+                        background: url(../../src/images/4link.png)no-repeat;
+                    }
+                    >a:nth-of-type(2){
+                        background: url(../../src/images/4link.png)no-repeat 0 -46px;
+                    }
+                    >a:nth-of-type(3){
+                        background: url(../../src/images/4link.png)no-repeat 0 -98px;
+                    }
+                    >a:nth-of-type(4){
+                        background: url(../../src/images/4link.png)no-repeat 0 -162px;
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}

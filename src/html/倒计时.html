@@ -1,0 +1,95 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+	#bj{
+		width:200px;
+		height:300px;
+		background:red;
+		margin:0 auto;
+		margin-top:150px;
+		
+	}
+	#bj ul{
+		padding-top:50px;
+	}
+	#bj li{
+		list-style:none;
+	}
+	#bj li a{
+		text-decoration:none;
+		color:white;
+		font-weight:500;
+		font-size:30px;
+		
+	}
+	#bj li span{
+		font-size:20px;
+		opacity:0.7;
+	}
+	#bj li span1{
+		font-size:15px;
+	}
+	
+	#xbj{
+		width:150px;
+		height:40px;
+		margin-left:25px;
+		margin-top:-20px;
+	}
+	#xbj a{
+		float:left;
+		width:40px;
+		height:40px;
+		background:black;
+		color:white;
+		margin-left:8px;
+		line-height:40px;
+		text-align:center;
+	}
+	
+</style>
+<div id="bj">
+	<ul>
+		<li><a href="#">京东秒杀</a></li>
+		<li><a href="#"><span>FLASH DEALS</span></a></li>
+		<br>
+		<li><a href="#"><span1>本场距离结束还剩</span1></a></li>
+	</ul>
+	<br>
+	<p id="xbj">
+		<a class="a1" id="a1">01</a>
+		<a class="a2" id="a2">24</a>
+		<a class="a3" id="a3">12</a>
+	</p>
+</div>
+<script>
+	setInterval(function(){
+		var d1=new Date();
+		
+		var d2=new Date('2018/7/18/24:00:00');
+		
+		console.log(d2);
+		
+		var cha=d2.valueOf()-d1.valueOf();
+		console.log(d2.valueOf());
+		
+		//获取小时
+		var hour=Math.floor(cha/(60*60*1000));
+		cha%=60*60*1000;
+		//获取分
+		var minute=Math.floor(cha/(60*1000));
+		cha%=60*1000;
+		//获取秒
+		var second=Math.floor(cha/(1000));
+		
+		a1.innerHTML=get(hour);
+		a2.innerHTML=get(minute);
+		a3.innerHTML=get(second);
+	},1000)
+
+	function get(num){
+		if(num<10) num='0'+num;
+		return num
+	}
+
+</script>
